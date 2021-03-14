@@ -1,5 +1,27 @@
-body {
+body { 
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: auto;
+  text-align: center;
+}
+header { 
+  text-align: center;
+}
+figure{
+  text-align: center;
+}
+a{
+  background-color: rgba(219, 206, 206, 0.301);
+  padding left: 10px;
+  padding right: 10px;
+}
+
+#featured-property ~ p { 
+   width: 800px;
+}
+#details div {  
+  width: 25%;
+  text-align: center;
+  float: left; 
+  background-color: rgb(255, 0, 0);
 }
